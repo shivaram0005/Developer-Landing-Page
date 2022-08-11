@@ -3,7 +3,7 @@
 ### By Thalloju Shivaram
 
 
-## 🔗Live Link -: [ Developer Landing Page ]()
+## 🔗Live Link -: [ Developer Landing Page ](https://develanding.netlify.app/)
  
 
 ---
