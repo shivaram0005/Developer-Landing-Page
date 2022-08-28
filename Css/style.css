@@ -43,6 +43,9 @@ body{
     font-size: 15px;
     font-weight: 600;
 }
+ .nav-bar .nav-links .barss{
+    display: none;
+ }
 .nav-bar .nav-heading{
     display: flex;
     flex-direction: row;
@@ -346,4 +349,93 @@ body{
     margin: 0px 15px;
     font-size: 15px;
     font-weight: lighter;
+}
+
+
+/* media-quaries */
+
+@media screen and (max-width:1300px) {
+
+    .nav-bar .nav-links .barss{
+        display: block;
+    }
+    .nav-bar .nav-links .grow{
+        display: none;
+    }
+    .nav-bar .nav-heading .left-heading h2{
+        font-size: 25px;
+    }
+    .nav-bar .nav-heading .left-heading p{
+        font-size: 20px;
+    }
+    
+    .nav-bar .nav-heading .right-heading{
+        display: none;
+    }
+    .nav-bar .nav-company{
+        position:  relative;
+        top: 400px;
+    }
+    .nav-bar .nav-company h2{
+        font-size: 20px;
+    }
+    .apis .apis-heading h1{
+        font-size: 25px;
+    }
+    .apis .api-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .blog .blog-heading h1{
+        font-size: 25px;
+    }
+    .blog .blog-data{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: 500px;
+        margin-bottom: 50px;
+    }
+    .blog .blog-data .blog-data-one{
+        margin-bottom: 30px;
+    }
+    .blog .blog-data .blog-description h3{
+        font-size: 15px;
+    }
+    .blog .blog-data .blog-description p{
+        font-size: 15px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 700px;
+    }
+    .download{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 900px;
+        margin: 0 auto;
+    }
+    .download h2{
+        position: relative;
+        top: 180px;
+    }
+    .download .contact{
+        margin-left: 180px;
+    }
+    .bottom-nav{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 1000px;
+    }
+    .question .question-description{
+        margin-bottom: 20px;
+    }
+    .bottom-nav .bottom-nav-links .left-nav-links ul li{
+        font-size: 10px;
+    }
+
 }
